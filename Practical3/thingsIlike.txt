@@ -1,6 +1,24 @@
-I like getting GitHub to work
-I like music
-I like pork pies
-I like crisps
-I like tea very much
-I like Radio 4
+<<<<<<< HEAD
+I like a very much
+I like b
+I like c
+=======
+I like a
+I like b
+>>>>>>> Alex
+I like d
+I like e
+I like f
+I like g
+<<<<<<< HEAD
+I like h
+I like i
+I like z
+=======
+I don't like i
+I like l
+I like m
+I like n
+I like o
+I like p
+>>>>>>> Alex
