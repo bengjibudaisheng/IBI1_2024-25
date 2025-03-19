@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # difine variables you need when create a bar gragh
-LanguagePercentage={'JavaScript':62.3,'HTML':52.9,'Python':51,'SQL':51,'TypeScript':38.5} #create a dictionary
+LanguagePercentage={'JavaScript':62.3,'HTML':52.9,'Python':51,'SQL':51,'TypeScript':38.5}
 languages=list(LanguagePercentage.keys())
 percentages=list(LanguagePercentage.values())
 
