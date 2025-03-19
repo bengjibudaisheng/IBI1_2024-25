@@ -17,5 +17,5 @@ plt.title('Programming language popularity')
 plt.show()
 
 # You could modify 'SelectedLanguage' to return the percentage of other language.
-SelectedLanguage='Python' 
-print('The percentage of developers who use',SelectedLanguage,'is',LanguagePercentage['Python'])
+SelectedLanguage='Python'
+print('The percentage of developers who use',SelectedLanguage,'is',LanguagePercentage[SelectedLanguage])
