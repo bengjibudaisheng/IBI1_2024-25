@@ -1,0 +1,7 @@
+Question: What country or countries have recorded a DALYs greater than 650,000 in a single year?
+          I expect the number of times a country's name appears in the final table to be consistent with the number of times its DALYs exceed 650,000.
+
+code line numble: 41-42
+
+result: The result is what I expected.
+        Through the code in line 41, the Entity column(s) of the country(ies) whose DALYs is(are) greater than 650000 is(are) stored in the final table.
