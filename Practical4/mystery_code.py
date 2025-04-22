@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: The code is to count the number of attempts it takes until two random numbers are the same.
+# Answer: The code is to count the number of attempts it takes until two random numbers that are within the range 1-6 are the same.
 
 # Import libraries
 # randint allows drawing a random number,
