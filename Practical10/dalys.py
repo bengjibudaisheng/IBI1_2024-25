@@ -22,6 +22,8 @@ uk_dalys=uk.describe()
 uk_mean=uk_dalys.loc['mean','DALYs']
 fr_dalys=fr.describe()
 fr_mean=fr_dalys.loc['mean','DALYs']
+print('uk_mean:',uk_mean)
+print('fr_mean:',fr_mean)
 
 # This part of code is used to state whether the mean DALYs in the UK was greater or smaller than France.
 if uk_mean>=fr_mean:
