@@ -13,6 +13,8 @@ else:
         # Define the variables.
         gene_name=''
         sequence=''
+        splice_donor=choice[0:2]
+        splice_acceptor=choice[2:]
 
         # Open the output file and enter write mode.
         with open(f'{choice}_spliced_genes.fa','w') as out_file:   
@@ -23,8 +25,8 @@ else:
 
                 # Locate the next gene, and then determine whether the previous gene meets the conditions.
                 if line.startswith('>'):
-                    if re.search(r'TATA[AT]A[AT]',sequence) and re.search(choice,sequence):
-
+                    if re.search(r'TATA[AT]A[AT]',sequence) and re.search(f'{splice_donor}.+{splice_acceptor}',sequence):
+                        
                         # Calculate the numbers of TATA box instances and write the gene names, numbers and sequences into the output file.
                         tata_count=len(re.findall(r'TATA[AT]A[AT]',sequence))
                         out_file.write('>'+gene_name+'_'+f'{tata_count}'+'\n')
@@ -37,7 +39,7 @@ else:
                     sequence+=line
             
             # Determine whether the last gene meets the conditions.
-            if re.search(r'TATA[AT]A[AT]',sequence):
+            if re.search(r'TATA[AT]A[AT]',sequence) and re.search(f'{splice_donor}.+{splice_acceptor}',sequence):
                 tata_count=len(re.findall(r'TATA[AT]A[AT]',sequence))
                 out_file.write('>'+gene_name+'_'+f'{tata_count}'+'\n')
                 out_file.write(sequence+'\n')

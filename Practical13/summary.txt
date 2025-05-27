@@ -1,0 +1,10 @@
+The length of SOD2 in amino acids is 222.
+It is found in the mitochondrial superoxide dismutase in the cell.
+
+The range of the percentage identity of these retrieved alignments is from 83.3 to 100.
+
+The alignment score for human-mouse is 1097.0, and the percentage of identical amino acids is 90.09009009009009.
+The alignment score for human-random is -253.0, and the percentage of identical amino acids is 4.504504504504505.
+The alignment score for mouse-random is -241.0, and the percentage of identical amino acids is 4.954954954954955.
+
+Based on the results, the human SOD2 sequence and the mouse SOD2 sequence are most closely related.
