@@ -9,6 +9,8 @@ dalys_data=pd.read_csv("dalys-rate-from-all-causes.csv")
 
 # This code is used to show the third column for the first ten rows.
 print(dalys_data.iloc[0:10,2])
+print('The 10th year with DALYs data(82624.94) recorded in Afghanistan is 1999.')
+# The 10th year with DALYs data(82624.94) recorded in Afghanistan is 1999.
 
 # This code is used to show the DALYs for all countries in 1990.
 print(dalys_data.loc[dalys_data.Year==1990,'DALYs'])
@@ -32,8 +34,9 @@ elif uk_mean<=fr_mean:
     print('The mean DALYs in the UK was smaller than France.')
 else:
     print('The mean DALYs in the UK was as same as France.')
+# The mean DALYs in the UK was greater than France.
 
-#  Create a plot showing the DALYS over time in the UK.
+# Create a plot showing the DALYS over time in the UK.
 plt.plot(uk.Year,uk.DALYs,'b+')
 plt.title('the DALYS over time in the UK')
 plt.ylabel('DALYs')

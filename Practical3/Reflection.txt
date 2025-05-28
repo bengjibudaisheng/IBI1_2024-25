@@ -1,1 +1,2 @@
 During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
+And I create a website according to my own preferences.

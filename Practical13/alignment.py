@@ -1,4 +1,4 @@
-# Import the module and obtain the blosum62 matrix.
+# Import the library and obtain the blosum62 matrix.
 import blosum as bl
 blosum62=bl.BLOSUM(62) 
 

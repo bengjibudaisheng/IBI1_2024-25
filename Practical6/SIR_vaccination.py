@@ -7,7 +7,7 @@ beta=0.3
 gamma=0.05
 
 # Substitute the percentages of people who have received vaccinations into i.
-for i in range(0,100,10):
+for i in range(0,110,10):
     
     # N represents the number of people who have not received vaccinations.
     N=int(10000*(100-i)/100)
